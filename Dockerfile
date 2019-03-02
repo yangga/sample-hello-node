@@ -10,4 +10,4 @@ ADD . .
 RUN npm install
 
 # Run the command on container startup
-ENTRYPOINT ["node", "start"]
+ENTRYPOINT ["npm", "start"]
